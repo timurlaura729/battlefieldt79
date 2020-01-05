@@ -1,5 +1,5 @@
 exports.myDateTime = function () {
-  return Date();
+  return "7777999999";
 };
 
 
