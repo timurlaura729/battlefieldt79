@@ -1,3 +1,4 @@
 exports.myDateTime = function () {
-  return Date('d.m.Y');
+var day=dateFormat(new Date(), "yyyy-mm-dd h:MM:ss");
+  return day;
 };
