@@ -1,6 +1,11 @@
+exports.myDateTime = function () {
+  return Date();
+};
+
+
 var http = require('http');
 
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/html'});
-  res.end('Hello WorldXXXXX111777799999!');
+  res.end('Hello World');
 }).listen(8080);
