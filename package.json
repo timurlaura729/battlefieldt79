@@ -1,0 +1,11 @@
+{ 
+  "name": "redux-ru-tutorial", 
+  "version": "1.0.0", 
+  "description": "Redux RU tutorial", 
+  "main": "app.js", 
+  "scripts": { 
+    "start": "npm install upper-case" 
+  }, 
+  "author": "Maxim Patsianskiy", 
+  "license": "MIT" 
+}
