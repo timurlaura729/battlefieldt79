@@ -1,11 +1,6 @@
 var http = require('http');
 var fs = require('fs');
 http.createServer(function (req, res) {
-fs.appendFile('mynewfile1.txt', 'Контент <br>', function (err) {
-  if (err) throw err;
-  console.log('Saved!');
-});
-
 fs.open('mynewfile2.txt', 'w', function (err, file) {
   if (err) throw err;
   console.log('Saved!');
